@@ -1,0 +1,18 @@
+RAQUEL HERVAS BALLESTEROS
+Fecha: viernes, 22 de febrero de 2013, 19:33 
+Calificación: 6,0 / 10,0
+
+FUNCIONAMIENTO: 
+- En el juego del dado, si se elige como opción la 1, sigue la partida automáticamente cambiando el dado y el contador.
+- La computadora no gira intentando poner el mínimo número arriba como pedía el enunciado.
+
+ESTRUCTURA Y TIPOS: Bien
+
+ABSTRACCIÓN Y PARÁMETROS:
+- La parte de mostrar los números de partidas al final habría estado mejor en un subprograma.
+- Algunos subprogamas son demasiado largos y se podían dividir más (como por ejemplo registro o volteardado). 
+- El bool que devuelve comprobarjugada no lo estáis usando para nada. Lo mismo con aleatorio(int &sorteo). 
+ - MUY GRAVE: Hay usos incorrectos de los pasos por valor y por referencia (por ejemplo en jugada_sorteo o dibujardado) 
+
+CALIDAD DEL CÓDIGO:
+- jugadaUsuario y jugadaComputadora podrían devolver ya el enumerado en lugar de que tengáis que traducirlo fuera.  

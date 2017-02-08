@@ -1,0 +1,21 @@
+RAQUEL HERVAS BALLESTEROS
+Fecha: sábado, 22 de diciembre de 2012, 21:04
+Calificación: 8,0 / 10,0
+
+FUNCIONAMIENTO:
+- Si se le da varias veces a la opción de las reglas se muestran las reglas varias veces repetidas y seguidas.
+- ¡A veces al terminar el programa se deja vacío el fichero de registro!
+
+ESTRUCTURA:
+- Hay que intentar separar la lógica del juego de la entrada/salida, es decir, no deberíais mostrar mensajes al usuario cuando se calcula quien gana sino 
+al final. 
+- Se podía organizar mejor la comparación de quién gana con menos condiciones.
+
+TIPOS DE DATOS Y ARCHIVOS:
+- En el uso de ficheros deberíais seguir los esquemas vistos en clase, porque si no os pueden surgir problemas. Por ejemplo, si el fichero de registro sólo
+ tiene el centinela os dará error porque siempre leeis un apodo con su contraseña.
+
+CALIDAD DEL CÓDIGO:
+- Bien indentado y tabulado.
+- En lugar de anidar varios ifs como hacéis en "if(elementoJugador != "piedra") { if(elementoJugador != "papel") {...", deberíais usar 
+condiones compuestas con and y or.
