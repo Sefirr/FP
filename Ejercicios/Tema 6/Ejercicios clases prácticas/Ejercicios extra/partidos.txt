@@ -1,0 +1,6 @@
+1 4 Azul 3 Rojo 4 Verde 1 Negro 1
+2 3 Rojo 1 Azul 3 Rosa 1
+3 5 Negro 2 Azul 3 Rojo 3 Verde 1 Amarillo 1
+4 3 Verde 1 Azul 2 Rojo 1
+5 4 Rojo 3 Verde 2 Azul 3 Rosa 1
+-1
